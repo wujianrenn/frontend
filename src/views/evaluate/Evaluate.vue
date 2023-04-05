@@ -48,11 +48,11 @@
             </div>           
         </div>
         <div class="detail"> 
-            该选项好的比例为：65%
+            <h2>该选项好的比例为：65%</h2>
         </div>
         <div class="boxf2">
           <div>
-            <iframe id="iframeBox" src="./input/观点之协调好.csv.html" frameborder="0" style="width: 100%; height: 296px" allowfullscreen />
+            <iframe src="../../../../../../../../input/观点之茶汤差.html"   frameborder="0" style="width: 100%; height: 640px"  id="iframeBox" allowfullscreen  ></iframe>
         </div>
         </div>
       </div>
@@ -65,71 +65,117 @@
   //   alert('asd')
   // }
   
-  export default {
-    data() {
-      return {
-        fileData: '',
-        analysisResults: '',
-        visible: false
-      }
-    },
-    methods: {
-      // 细粒度
-      change1() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', './input/观点之汤色好.csv.html')
-      },
-      change2() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', 'input/观点之口感好.csv.html')
-      },
-      change3() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', 'input/观点之泡度好.csv.html')
-      },
-      change4() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', 'input/观点之品质好.csv.html')
-      },
-      change5() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', 'input/观点之汤色好.csv.html')
-      },
-      change6() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', 'input/观点之外形好.csv.html')
-      },
-      change7() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', 'input/观点之香气好.csv.html')
-      },
-      change8() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', 'input/观点之协调好.csv.html')
-      },
-      change9() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', './input/观点之叶底好.csv.html')
-      },
-      change10() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', 'input/观点之整体好.csv.html')
-      },
-      change11() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', 'input/观点之原料好.csv.html')
-      },
-      change12() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', 'input/观点之滋味好.csv.html')
-      },
-      change14() {
-        var iBox = document.getElementById('iframeBox')
-        iBox.setAttribute('src', './input/观点之口感差.html')
-      },
+export default {
+data() {
+    return {
+    fileData: '',
+    analysisResults: '',
+    visible: false
     }
-  }
-  </script>
+},
+methods: {
+        // 细粒度
+        change1() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之茶汤好.html')
+        },
+        change2() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之口感好.html')
+        },
+        change3() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之泡度好.html')
+        },
+        change4() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之品质好.html')
+        },
+        change5() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之汤色好.html')
+        },
+        change6() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之外形好.html')
+        },
+        change7() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之香气好.html')
+        },
+        change8() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之协调好.html')
+        },
+        change9() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之叶底好.html')
+        },
+        change10() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之整体好.html')
+        },
+        change11() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之原料好.html')
+        },
+        change12() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之滋味好.html')
+        },
+
+
+        change13() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之滋味差.html')
+        },
+        change14() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之口感差.html')
+        },
+        change15() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之泡度差.html')
+        },
+        change16() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之品质差.html')
+        },
+        change17() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之汤色差.html')
+        },
+        change18() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之外形差.html')
+        },
+        change19() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之香气差.html')
+        },
+        change20() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之协调差.html')
+        },
+        change21() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之叶底差.html')
+        },
+        change22() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之整体差.html')
+        },
+        change23() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之原料差.html')
+        },
+        change24() {
+            var iBox = document.getElementById('iframeBox')
+            iBox.setAttribute('src', '../../../../input/观点之滋味差.html')
+        },
+    }
+}
+</script>
   
 <style scoped>
 
@@ -147,13 +193,13 @@
         margin: 5px;
     }
     .main-tea{
-        background-color:aqua;
+        /* background-color:aqua; */
     }
     .tit{
         color: green;
     }
     .boxf1{
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
     }
     .letter_fb{
         color:gray;
@@ -164,7 +210,8 @@
     .i1:hover{color:darkgoldenrod}
 
     .boxf2{
-        background-color: burlywood;
+        /* background-color: burlywood; */
+        height: 600px;
     }
     a {
         color:#444;

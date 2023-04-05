@@ -125,7 +125,29 @@ export const constantRoutes = [
     }]
   },
 
-
+  // part 4
+  {
+      path: '/view2',
+      component: Layout,
+      redirect: '/view2',
+      name: 'Views2',
+      meta: { title: '第四部分内容', icon: 'el-icon-s-home' },
+      children: [
+        {
+          path: '',
+          name: 'View',
+          meta: { title: '茶评', icon: 'el-icon-s-home' },
+          component: () => import('@/views/part4/index')
+        },
+        {
+          path: 'buzhidao',
+          name: 'Buzhidao',
+          hidden: true,
+          component: () => import('@/views/part4/buzhidao/Buzhidao'),
+          meta: { title: '--茶评--', icon: 'el-icon-document-copy' }
+        }
+      ]
+    },
   {
     path: 'external-link',
     component: Layout,
