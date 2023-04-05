@@ -113,6 +113,17 @@ export const constantRoutes = [
         }
     ]
   },
+  {
+    path: '/evaluate',
+    component: Layout,
+    redirect: '/evaluate',
+    children: [{
+      path: 'evaluate',
+      name: 'Evaluate',
+      component: () => import('@/views/evaluate/Evaluate'),
+      meta: { title: '好坏评价', icon: 'el-icon-s-home' }
+    }]
+  },
 
 
   {

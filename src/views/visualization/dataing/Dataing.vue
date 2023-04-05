@@ -41,7 +41,7 @@
 <style scoped>
     .dataing-container {
         display: flex;
-        
+        /* background-color: #e3d8d8ee; */
     }
 
     /* .box {
@@ -56,7 +56,7 @@
         /* position: fixed; */
         height: 100%;
         width: 20%;
-        background-color: rgb(85, 219, 108);
+        /* background-color: rgb(85, 219, 108); */
     }
 
     .middle {
@@ -71,7 +71,7 @@
         display: inline-block;
         height: 100%;
         width: 20%;
-        background-color: greenyellow;
+        /* background-color: greenyellow; */
     }
     
     .one {
