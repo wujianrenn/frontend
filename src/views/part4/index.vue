@@ -14,29 +14,29 @@
         </div>
         <div class="tea_item_xili">
           <h4 style="color:chocolate">细粒度推荐</h4>
-          <p class="letter_fb">
-            <el-button id="xl1" @click="change1()">茶汤好</el-button>
-            <el-button id="xl2" @click="change2()">工艺精致</el-button>
-            <el-button id="xl3" @click="change3()">均匀不错</el-button>
-            <el-button id="xl4" @click="change4()">口感好</el-button>
-            <el-button id="xl5" @click="change5()">耐泡度好</el-button>
-            <el-button id="xl6" @click="change6()">嫩度好</el-button>
-            <el-button id="xl7" @click="change7()">色泽好</el-button>
-            <el-button id="xl8" @click="change8()">汤色好</el-button>
-            <el-button id="xl9" @click="change9()">甜度好</el-button>
-            <el-button id="xla" @click="change10()">外形好</el-button>
-            <el-button id="xlb" @click="change11()">香气持久</el-button>
-            <el-button id="xlc" @click="change12()">香气好</el-button><br><br>
-            <el-button id="xld" @click="change13()">选料好</el-button>
-            <el-button id="xle" @click="change14()">原料好</el-button>
-            <el-button id="xlf" @click="change15()">总体好</el-button>
+          <p class="letter_fb button_1">
+            <el-button id="xl1" class="black" @click="change1()">茶汤好</el-button>
+            <el-button id="xl4" class="black" @click="change4()">口感好</el-button>
+            <el-button id="xl6" class="black" @click="change6()">嫩度好</el-button>
+            <el-button id="xl7" class="black" @click="change7()">色泽好</el-button>
+            <el-button id="xl8" class="black" @click="change8()">汤色好</el-button>
+            <el-button id="xla" class="black" @click="change10()">外形好</el-button>
+            <el-button id="xlc" class="black" @click="change12()">香气好</el-button>
+            <el-button id="xld" class="black" @click="change13()">选料好</el-button>
+            <el-button id="xle" class="black" @click="change14()">原料好</el-button>
+            <el-button id="xlf" class="black" @click="change15()">总体好</el-button>
+            <el-button id="xl2" class="black" @click="change2()">工艺精致</el-button>
+            <el-button id="xl3" class="black" @click="change3()">均匀不错</el-button>
+            <el-button id="xlb" class="black" @click="change11()">香气持久</el-button>
+            <el-button id="xl5" class="black" @click="change5()">耐泡度好</el-button>
           </p>
         </div>
         <div class="tea_item_brand">
           <h4 style="color:slateblue">茶类推荐：</h4>
           <div class="fr">
             <div class="all">
-              <p class="letter_fb">
+              <h1>
+                <p class="letter_fb">
                 <a style="color:grey">全部 </a>
                 <a id="q1" @click="cl1()">绿茶 </a>
                 <a id="q2" @click="cl2()">乌龙 </a>
@@ -49,77 +49,81 @@
                 <a id="q9" @click="cl9()">花茶 </a>
                 <a id="q10" @click="cl10()">袋泡</a>
               </p>
+              </h1>
             </div>
           </div>
         </div>
         <div class="tea_item_chanqu">
           <h4 style="color:cornflowerblue">产地推荐</h4>
           <div class="fr">
-            <p class="letter_fb">
-              <span><a class="current">全部</a></span>
+            <h1>
+                <p class="letter_fb">
+                <span><a class="current">全部</a></span>
 
-              <span><a @click="area1()">福建 </a></span>
+                <span><a @click="area1()">福建 </a></span>
 
-              <span><a @click="area2()">云南 </a></span>
+                <span><a @click="area2()">云南 </a></span>
 
-              <span><a @click="area3()">四川 </a></span>
+                <span><a @click="area3()">四川 </a></span>
 
-              <span><a @click="area4()">台湾</a></span>
+                <span><a @click="area4()">台湾</a></span>
 
-              <span><a @click="area5()">湖北</a></span>
+                <span><a @click="area5()">湖北</a></span>
 
-              <span><a @click="area6()">浙江</a></span>
+                <span><a @click="area6()">浙江</a></span>
 
-              <span><a @click="area7()">安徽</a></span>
+                <span><a @click="area7()">安徽</a></span>
 
-              <span><a @click="area8()">广东</a></span>
+                <span><a @click="area8()">广东</a></span>
 
-              <span><a @click="area9()">贵州</a></span>
+                <span><a @click="area9()">贵州</a></span>
 
-              <span><a @click="area10()">广西</a></span>
+                <span><a @click="area10()">广西</a></span>
 
-              <span><a @click="area11()">江西</a></span>
+                <span><a @click="area11()">江西</a></span>
 
-              <span><a @click="area12()">陕西</a></span>
+                <span><a @click="area12()">陕西</a></span>
 
-              <span><a @click="area13()">北京</a></span>
+                <span><a @click="area13()">北京</a></span>
 
-              <span><a @click="area14()">国外</a></span><br><br>
+                <span><a @click="area14()">国外</a></span><br><br>
 
-              <span><a @click="area15()">河南</a></span>
+                <span><a @click="area15()">河南</a></span>
 
-              <span><a @click="area16()">山东</a></span>
+                <span><a @click="area16()">山东</a></span>
 
-              <span><a @click="area17()">海南</a></span>
+                <span><a @click="area17()">海南</a></span>
 
-              <span><a @click="area18()">山西</a></span>
+                <span><a @click="area18()">山西</a></span>
 
-              <span><a @click="area19()">西藏</a></span>
+                <span><a @click="area19()">西藏</a></span>
 
-              <span><a @click="area20()">湖南</a></span>
+                <span><a @click="area20()">湖南</a></span>
 
-              <span><a @click="area21()">重庆</a></span>
+                <span><a @click="area21()">重庆</a></span>
 
-              <span><a @click="area22()">江苏</a></span>
+                <span><a @click="area22()">江苏</a></span>
 
-              <span><a @click="area23()">上海</a></span>
+                <span><a @click="area23()">上海</a></span>
 
-              <span><a @click="area24()">天津</a></span>
+                <span><a @click="area24()">天津</a></span>
 
-              <span><a @click="area25()">宁夏</a></span>
+                <span><a @click="area25()">宁夏</a></span>
 
-              <span><a @click="area26()">辽宁</a></span>
+                <span><a @click="area26()">辽宁</a></span>
 
-              <span><a @click="area27()">吉林</a></span>
+                <span><a @click="area27()">吉林</a></span>
 
-              <span><a @click="area28()">香港</a></span><br><br>
+                <span><a @click="area28()">香港</a></span><br><br>
 
-              <span><a @click="area29()">黑龙江</a></span>
+                <span><a @click="area29()">黑龙江</a></span>
 
-              <span><a @click="area30()">甘肃</a></span>
+                <span><a @click="area30()">甘肃</a></span>
 
-              <span class="color999">( 按热门度排序 )</span>
-            </p>
+                <span class="color999">( 按热门度排序 )</span>
+                </p>
+            </h1>
+
           </div>
         </div>
         <div class="tea_item_grade">
@@ -143,7 +147,7 @@
       </div>
       <div class="boxf2">
         <div>
-          <iframe id="iframeBox" src="../../../../细粒度属性推荐/原料好.html" frameborder="0" style="width: 100%; height: 296px" allowfullscreen />
+          <iframe id="iframeBox" src="../../../../细粒度属性推荐/原料好.html" frameborder="0" style="width: 100%; height: 400px" allowfullscreen />
         </div>
       </div>
     </div>
@@ -414,13 +418,13 @@ export default {
 
 <style scoped>
     .main-tea{
-        background-color:aqua;
+        background-color:rgba(233, 228, 214, 0.24);
     }
     .tit{
-        color: green;
+        /* color: green; */
     }
     .boxf1{
-        background-color: aquamarine;
+        /* background-color: aquamarine; */
     }
     .letter_fb{
         color:gray;
@@ -428,10 +432,15 @@ export default {
         position: relative;
         left: 50px;
     }
-    .i1:hover{color:darkgoldenrod}
+
+    .button_1 {
+      width: 730px;
+      /* margin: 0 auto; */
+    }
+    /* .i1:hover{color:darkgoldenrod} */
 
     .boxf2{
-        background-color: burlywood;
+        /* background-color: burlywood; */
     }
     a {
         color:#444;
@@ -445,6 +454,11 @@ export default {
         color:#569091;
         color:#c19450;
         color:#c0501f;
+    }
+
+    .black {
+      font-weight: bold;
+      margin: 5px;
     }
 </style>
 

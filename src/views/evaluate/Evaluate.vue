@@ -193,7 +193,7 @@ methods: {
         margin: 5px;
     }
     .main-tea{
-        /* background-color:aqua; */
+        background-color:rgba(233, 228, 214, 0.24);
     }
     .tit{
         color: green;
