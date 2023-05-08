@@ -4,7 +4,7 @@
       style="width: 100%; height: 100%; position: absolute; z-index: -1;"
       :src="url"
     />
-    <div id="container" style="width:100%; height: 100%; position: absolute; z-index: 1;" />
+    <div id="container" class="asd" />
   </div>
 </template>
 
@@ -16,11 +16,12 @@ export default {
   name: 'Dashboard',
   data() {
     return {
-      url: require('/src/assets/img/image.jpg')
+      url: require('../../../public/主页/主页图3.jpg')
     }
   },
   mounted() {
     this.getLoadEcharts()
+    this.getLoadEcharts2()
   },
   methods: {
     getLoadEcharts() {
@@ -35,7 +36,7 @@ export default {
               left: 'center',
               top: 'center',
               style: {
-                text: '属性级情感分析系统',
+                text: 'TeaSensel茶语智选',
                 fontSize: 100,
                 fontWeight: 'bold',
                 lineDash: [0, 200],
@@ -89,5 +90,14 @@ export default {
     width:100%;
     position:fixed;
   }
+}
+.asd{
+  width:100%;
+  height: 100%;
+  position: absolute;
+  left: 230px;
+  bottom: -120px;
+  z-index: 1
+
 }
 </style>

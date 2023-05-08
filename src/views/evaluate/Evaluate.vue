@@ -48,7 +48,7 @@
             </div>           
         </div>
         <div class="detail"> 
-            <h2>该选项好的比例为：65%</h2>
+            <h2>提到原料的评价中有63%觉得原料差，共40条</h2>
         </div>
         <div class="boxf2">
           <div>
