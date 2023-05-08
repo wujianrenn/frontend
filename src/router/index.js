@@ -60,7 +60,7 @@ export const constantRoutes = [
     component: Layout,
     redirect: '/analysis/singleAnalysis',
     name: 'Analysis',
-    meta: { title: '属性级情感分析', icon: 'el-icon-s-help' },
+    meta: { title: '属性级情感分析模块', icon: 'el-icon-s-help' },
     children: [
       {
         path: 'singleAnalysis',
@@ -82,13 +82,20 @@ export const constantRoutes = [
     component: Layout,
     redirect: '/view',
     name: 'Views',
-    meta: { title: '数据与情感效果可视化', icon: 'el-icon-s-home' },
+    meta: { title: '数据与情感效果可视化模块', icon: 'el-icon-star-off' },
     children: [
       {
         path: '',
         name: 'View',
-        meta: { title: '三大效果', icon: 'el-icon-s-home' },
+        meta: { title: '数据和算法效果可视化', icon: 'el-icon-star-off' },
         component: () => import('@/views/visualization/index'),
+      },
+      {
+        path: 'clustering_two',
+        name: 'Two',
+        hidden: true,
+        component: () => import('@/views/visualization/clustering/Clustering_Two'),
+        meta: { title: '聚类效果可视化2', icon: 'el-icon-document-copy' }
       },
       {
         path: 'fine_grained',
@@ -121,7 +128,7 @@ export const constantRoutes = [
       path: 'evaluate',
       name: 'Evaluate',
       component: () => import('@/views/evaluate/Evaluate'),
-      meta: { title: '好坏评价', icon: 'el-icon-s-home' }
+      meta: { title: '属性级精选评论标签模块', icon: 'el-icon-chat-square' }
     }]
   },
 
@@ -136,7 +143,7 @@ export const constantRoutes = [
         {
           path: '',
           name: 'View',
-          meta: { title: '茶评', icon: 'el-icon-s-home' },
+          meta: { title: '细粒度茶叶推荐模块', icon: 'el-icon-bangzhu' },
           component: () => import('@/views/part4/index')
         },
         {
@@ -147,7 +154,24 @@ export const constantRoutes = [
           meta: { title: '--茶评--', icon: 'el-icon-document-copy' }
         }
       ]
-    },
+  },
+  
+  // part 5
+    {
+        path: '/view3',
+        component: Layout,
+        redirect: '/view3',
+        name: 'Views3',
+        meta: { title: '用户反馈信息模块', icon: 'el-icon-s-home' },
+        children: [
+          {
+            path: '',
+            name: 'View',
+            meta: { title: '用户反馈信息模块', icon: 'el-icon-document-copy' },
+            component: () => import('@/views/part5/App')
+          }
+        ]
+      },
   {
     path: 'external-link',
     component: Layout,
