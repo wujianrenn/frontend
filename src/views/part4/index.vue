@@ -32,7 +32,7 @@
           </p>
         </div>
         <div class="tea_item_brand">
-          <h4 style="color:slateblue">茶类推荐：</h4>
+          <h4 style="color:rgb(212, 129, 33)">茶类推荐：</h4>
           <div class="fr">
             <div class="all">
               <h1>
@@ -54,7 +54,7 @@
           </div>
         </div>
         <div class="tea_item_chanqu">
-          <h4 style="color:cornflowerblue">产地推荐</h4>
+          <h4 style="color:rgb(212, 129, 33)">产地推荐</h4>
           <div class="fr">
             <h1>
                 <p class="letter_fb">
@@ -127,7 +127,7 @@
           </div>
         </div>
         <div class="tea_item_grade">
-          <h4 style="color:crimson">评分推荐</h4>
+          <h4 style="color:rgb(212, 129, 33)">评分推荐</h4>
           <div class="fr">
             <p class="letter_fb">
               <span><a class="current" @click="pf1()">全部</a></span>
@@ -422,6 +422,7 @@ export default {
     }
     .tit{
         /* color: green; */
+        /* background-color: #d48121; */
     }
     .boxf1{
         /* background-color: aquamarine; */
