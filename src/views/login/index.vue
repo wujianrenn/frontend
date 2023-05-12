@@ -3,7 +3,7 @@
     <el-form ref="loginForm" :model="loginForm" :rules="loginRules" class="login-form" auto-complete="on" label-position="left">
 
       <div class="title-container">
-        <h3 class="title">属性级情感分析系统</h3>
+        <h3 class="title">茶语智选——基于数据挖掘的茶产品分析推荐平台</h3>
       </div>
 
       <el-form-item prop="username">
