@@ -171,7 +171,26 @@ export const constantRoutes = [
             component: () => import('@/views/part5/App')
           }
         ]
-      },
+  },
+      
+
+    // part 7   ----gpt聊天框
+    {
+        path: '/chat',
+        component: Layout,
+        redirect: '/view3',
+        name: 'Views3',
+    //     meta: { title: '用户AI', icon: 'el-icon-s-home' },
+        children: [
+          {
+            path: '',
+            name: 'View',
+            meta: { title: '用户AI', icon: 'el-icon-document-copy' },
+            component: () => import('@/views/part7_chat/Chat')
+          }
+        ]
+  },
+      
   {
     path: 'external-link',
     component: Layout,
